@@ -3,7 +3,7 @@
         <span class="icon-preview" v-if="iconPreview && selectedIcon.name">
             <i :class="`${selectedIcon.type} fa-${selectedIcon.name}`"></i>
         </span>
-    <button @click="popUpActive = true" class="picker-btn">
+    <button @click="popUpActive = true" class="picker-btn" type="button">
       {{ button }}
     </button>
 
